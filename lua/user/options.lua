@@ -12,3 +12,6 @@ vim.opt.shiftwidth = 2
 
 -- Line wrapping
 vim.opt.breakindent = true
+
+-- Sync clipboard between OS and Neovim
+vim.opt.clipboard = 'unnamedplus'
